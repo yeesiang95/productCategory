@@ -26,6 +26,9 @@ const Navbar:NextPage =()=>{
             </li>
           </ul>
           </div>
+          <div className="ml-auto mr-8">
+            <img className="w-10 h-10 rounded-full" src="/blank_picture.png" />
+          </div>
       </nav>
       </>
     )
