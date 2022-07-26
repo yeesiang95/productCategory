@@ -16,7 +16,7 @@ const ImageTabContent =({setImage}:Props)=>{
     return(
         <>
         <div className="flex justify-center">
-            <div className="p-2 mt-8 w-1/2 lg:w-1/2 h-24 lg:h-96 border-2 border-black flex items-center justify-center ">
+            <div className="p-2 mt-20 w-40 lg:w-1/2 h-40 lg:h-96 border-2 border-black flex items-center justify-center ">
                 <div>
                     <label htmlFor="file-input" className="cursor-pointer">
                     <div className="flex justify-center">

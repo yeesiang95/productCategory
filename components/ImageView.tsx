@@ -6,9 +6,6 @@ interface Props{
 }
 
 const ImageView=({images}:Props)=>{
-
-
-    let arr = [];
     
     return(
         <>

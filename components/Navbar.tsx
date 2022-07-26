@@ -1,6 +1,4 @@
 import { NextPage } from "next";
-import Link from "next/link";
-
 
 const Navbar:NextPage =()=>{
     return(
@@ -10,10 +8,7 @@ const Navbar:NextPage =()=>{
         <div className="hidden w-full md:block md:w-auto">
           <ul className='flex ml-16'>
             <li className='mr-6'>
-              <Link href={'/events'}>
                 <a className='text-white'>EVENTS</a>
-              </Link>
-              
             </li>
             <li className='mr-6'>
               <a className='text-white'>FEATURES</a>
